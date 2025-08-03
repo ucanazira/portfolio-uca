@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uca Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-content">
+        <div class="logo-container">
+          <div class="logo-icon">
+            <img src="img/logo.png" alt="Logo" />
+          </div>
+          <div class="logo-text-wrapper">
+            <span class="logo-text">UCA NAZIRA</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <img
+          src="img/4.png"
+          class="corner-img top-left"
+          alt="Top Left Decoration"
+        />
+        <img
+          src="img/5.png"
+          class="corner-img bottom-right"
+          alt="Bottom Right Decoration"
+        />
+
+        <div class="hero">
+          <h1 class="hero-title">
+            Hey, I’m Uca<br />
+            <span class="role-wrapper">
+              — a
+              <span class="gradient-text changing-text">web dev</span> </span
+            ><br />
+            design and build.
+          </h1>
+          <a href="#" class="view-btn">VIEW PROJECTS</a>
+        </div>
+        <!-- MUSIC TOGGLE kiri bawah -->
+        <div class="music-toggle" onclick="toggleMusic(this)">
+          <div class="toggle-switch">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="circle"></div>
+            <div class="equalizer"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+
+        <!-- SOCIAL ICONS kanan bawah -->
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i><span>GH</span></a>
+          <a href="#"><i class="fab fa-twitter"></i><span>TW</span></a>
+          <a href="#"><i class="fab fa-linkedin"></i><span>LD</span></a>
+          <a href="#"><i class="fab fa-instagram"></i><span>IG</span></a>
+        </div>
+
+        <!-- PARAGRAF SAPAAN -->
+        <div class="extra-paragraph">
+          <p>
+            Hello stranger!👋 I’m Uca — welcome to my little corner on the web.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects">
+        <div class="card">
+          <div class="card-number">01</div>
+          <div class="card-image">
+            <img src="img/001.jpeg" class="img-default" alt="Project" />
+            <img src="img/002.jpeg" class="img-hover" alt="Project Hover" />
+          </div>
+          <div class="card-content">
+            <h2>Project</h2>
+            <a href="#" class="visit-link">VISIT THE WEBSITE</a>
+            <div class="icons">
+              <i class="fab fa-dribbble"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-number">02</div>
+          <div class="card-image">
+            <img src="img/003.jpeg" class="img-default" alt="Project" />
+            <img src="img/004.jpeg" class="img-hover" alt="Project Hover" />
+          </div>
+          <div class="card-content">
+            <h2>Project</h2>
+            <a href="#" class="visit-link">VISIT THE WEBSITE</a>
+            <div class="icons">
+              <i class="fab fa-dribbble"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-number">03</div>
+          <div class="card-image">
+            <img src="img/005.jpeg" class="img-default" alt="Project" />
+            <img src="img/006.jpeg" class="img-hover" alt="Project Hover" />
+          </div>
+          <div class="card-content">
+            <h2>Project</h2>
+            <a href="#" class="visit-link">VISIT THE WEBSITE</a>
+            <div class="icons">
+              <i class="fab fa-dribbble"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="timeline-section">
+  <div class="timeline-container">
+
+    <!-- EXPERIENCE -->
+    <div class="timeline-wrapper">
+      <h2 class="timeline-title">Experience</h2>
+      <div class="timeline-column">
+        <div class="timeline-box">
+          <div class="timeline-item">
+            <div class="line"></div>
+            <span class="dot"></span>
+            
+            <div class="logo"><img src="img/fiverr.png" alt="Logo" /></div>
+            <div class="date">2021 – 2023</div>
+            <h3>Freelance Graphic Designer</h3>
+            <p>Handled editing tasks and developed digital assets tailored for online shop promotions and product displays.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+            <span class="dot"></span>
+            <div class="logo"><img src="img/redbublle.png" alt="ACME" /></div>
+            <div class="date">2021 - July 2025</div>
+            <h3>Independent Artist</h3>
+            <p>Created and sold a wide range of digital designs—including stickers, apparel, and print art—to a global audience.
+Operated an online shop, developed visual content, and executed independent marketing strategies.</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+            <span class="dot"></span>
+            <div class="logo"><img src="img/youtube.png" alt="Proev" /></div>
+            <div class="date">2021 – Now</div>
+            <h3>Content Creator & Video Editor – YouTube Channel (9K+ Subscribers)</h3>
+            <p>Produced engaging educational videos on historical topics using custom illustrations and creative video editing.
+Built a channel with over 9,000 subscribers through consistent content production, audience engagement, and visual storytelling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="timeline-wrapper">
+      <h2 class="timeline-title">Certifications & Trainings</h2>
+      <div class="timeline-column">
+        <div class="timeline-box">
+          <div class="timeline-item">
+            <div class="line"></div>
+  <span class="dot"></span>
+  <div class="logo"><img src="img/kominfo.png" alt="Kominfo Logo" /></div>
+  <div class="date">Issued by BBPSDMP Kominfo Medan · July 8–12, 2024 · 24 Training Hours</div>
+  <h3>Junior Web Developer – VSGA Digital Talent Scholarship 2024</h3>
+  <p>
+    Certified by the Indonesian Professional Certification Authority (BNSP).<br>
+    Training topics included:
+    <ul>
+      <li>UI Implementation</li>
+      <li>Structured Programming</li>
+      <li>Executing code with text, graphics, and multimedia</li>
+      <li>Organized code structure and file management</li>
+      <li>Writing code with best practices</li>
+      <li>Using pre-existing libraries and components</li>
+    </ul>
+    Officially certified and electronically signed by Hary Budiarto, Head of Human Resource Development Agency, Kominfo.
+  </p>
+</div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+  <span class="dot"></span>
+  <div class="logo"><img src="img/digitalent.png" alt="Kominfo Logo" /></div>
+  <div class="date">Issued by Pusat Pengembangan Talenta Digital · June 16 – July 6, 2025 · 13 Training Hours</div>
+  <h3>Fundamental Data Science – Fresh Graduate Academy, Digital Talent Scholarship 2025</h3>
+  <p>
+    This training was conducted by the Indonesian Digital Talent Development Agency (Kominfo), 
+    and signed electronically by Bonifasius W. Pudjianto, Head of the Agency. <br>
+    Verified by Balai Sertifikasi Elektronik (BSrE), BSSN.
+  </p>
+  <p><strong>Training Topics:</strong></p>
+  <ul>
+    <li>Data Scraping</li>
+    <li>Data Exploration</li>
+    <li>Data Cleansing</li>
+    <li>Data Annotation</li>
+  </ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tools-section">
+  <div class="tools-header">
+    <h3 class="tools-title">Tools</h3>
+    <h2 class="section-title gradient-text">
+  TECHNOLOGIES AND TOOLS I USE <br /> IN DESIGN AND DEVELOPMENT
+</h2>
+  </div>
+
+  <div class="tools-grid">
+    <!-- Satu kotak tool -->
+    <div class="tool-card">
+      <img src="img/figma.png" alt="Figma Logo" />
+      <span>FIGMA</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/photoshop.png" alt="Illustrator Logo" />
+      <span>PHOTOSHOP</span>
+    </div>
+
+     <div class="tool-card">
+      <img src="img/idesign.png" alt="HTML5 Logo" />
+      <span>INDESIGN</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/aftereffect.png" alt="HTML5 Logo" />
+      <span>AFTER EFFECT</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/xd.png" alt="HTML5 Logo" />
+      <span>XD</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/html-5.png" alt="HTML5 Logo" />
+      <span>HTML</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/css-3.png" alt="HTML5 Logo" />
+      <span>CSS</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/java-script.png" alt="HTML5 Logo" />
+      <span>JAVASCRIPT</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/php.png" alt="HTML5 Logo" />
+      <span>PHP</span>
+    </div>
+    
+    <div class="tool-card">
+      <img src="img/visual.png" alt="Framer Logo" />
+      <span>VISUAL CODE STUDIO</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/logo_MediBang_paint_pro.png" alt="Framer Logo" />
+      <span>MEDIBANG PAINT</span>
+    </div>
+   
+    <div class="tool-card">
+      <img src="img/CapCut-White-Logo-PNG.png" alt="Framer Logo" />
+      <span>CAPCUT</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/xampp.png" alt="Framer Logo" />
+      <span>XAMPP</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/png-transparent-json-hd-logo.png" alt="Framer Logo" />
+      <span>JSON</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/api.png" alt="Framer Logo" />
+      <span>API</span>
+    </div>
+
+    <div class="tool-card">
+      <img src="img/postman.png" alt="Framer Logo" />
+      <span>POSTMAN</span>
+    </div>
+  </div>
+</section>
+    <!-- JS -->
+    <script>
+      const music = document.getElementById("bg-music");
+
+      function toggleMusic(el) {
+        el.classList.toggle("active");
+        if (el.classList.contains("active")) {
+          music.play();
+        } else {
+          music.pause();
+        }
+      }
+
+      const words = ["ui/ux designer", "web dev"];
+      let i = 0;
+      setInterval(() => {
+        const el = document.querySelector(".changing-text");
+        el.textContent = words[i];
+        i = (i + 1) % words.length;
+      }, 2000);
+
+
+  window.addEventListener("load", () => {
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach((card) => {
+      const img = card.querySelector(".img-default"); // ambil img-default saja
+      const h2 = card.querySelector("h2");
+      const colorThief = new ColorThief();
+
+      if (img.complete) {
+        applyGradient();
+      } else {
+        img.addEventListener("load", applyGradient);
+      }
+
+      function applyGradient() {
+        try {
+          const palette = colorThief.getPalette(img, 3);
+          const [r1, g1, b1] = palette[0];
+          const [r2, g2, b2] = palette[1];
+          const [r3, g3, b3] = palette[2];
+
+          const gradient = `linear-gradient(90deg, rgb(${r1},${g1},${b1}), rgb(${r2},${g2},${b2}), rgb(${r3},${g3},${b3}))`;
+          h2.style.backgroundImage = gradient;
+
+          // Tambah event animasi saat hover
+          card.addEventListener("mouseenter", () => {
+            h2.classList.remove("animate-gradient");
+            void h2.offsetWidth; // reflow agar animasi bisa diulang
+            h2.classList.add("animate-gradient");
+          });
+
+          card.addEventListener("mouseleave", () => {
+            setTimeout(() => {
+              h2.classList.remove("animate-gradient");
+            }, 4000); // hapus class setelah animasi selesai
+          });
+        } catch (e) {
+          console.warn("Gagal mengambil warna dari gambar:", img.src);
+        }
+      }
+    });
+  });
+    </script>
+  </body>
+</html>
